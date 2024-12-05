@@ -9,13 +9,14 @@
 
 body{
     background-color: deepskyblue;
-    padding-top: 56px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 
 .hero{
   margin: 0;
   padding: 20px;
-  padding-bottom: 65px;
+  padding-bottom: 70px;
   list-style: none;
   text-decoration: none;
   height: 600px;
@@ -38,6 +39,10 @@ body{
   margin-bottom: 8px;
 }
 
+.container h1{
+  text-align: center;
+}
+
 button{
   padding: 1em 2.1em 1.1em;
   border-radius: 4px;
@@ -50,12 +55,126 @@ button{
   color: white;
 }
 
-.container .heading{
+.carousel-item{
+  height: 32rem;
+  background: black;
+  color: white;
+  position: relative;
+}
+
+
+.reception{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.party1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.party2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.party3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+#prices{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.price_card{
+  position: relative;
+  width: 300px;
+  height: 550px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.price_card .header{
+  position: absolute;
+  top: 0;
+  width: 110%;
+  height: 230px;
+  color: black;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.2));
+  z-index: 1;
+}
+
+.price_card .header::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+}
+
+.price_card .header .info{
+  position: relative;
   text-align: center;
-  padding: 10px;
-  color: #333;
-  font-size: 35px;
-  border-bottom: 3px solid #333;
+}
+
+.price_card .header .info h1{
+  margin-bottom: 0.6rem;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+
+.price_card .header .info p{
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.price_card .header .price{
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
