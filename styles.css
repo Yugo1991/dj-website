@@ -9,18 +9,19 @@
 
 body{
     background-color: deepskyblue;
-    padding-top: 75px;
-    padding-bottom: 75px;
   }
+
+#about{
+  padding-top: 75px;
+}  
 
 .hero{
   margin: 0;
   padding: 20px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   list-style: none;
   text-decoration: none;
   height: 600px;
-  margin-left: 40px;
   margin-left: 40px;
   display: flex;
   flex-direction: row-reverse;
@@ -39,6 +40,7 @@ body{
   margin-bottom: 8px;
 }
 
+
 .container h1{
   text-align: center;
 }
@@ -55,6 +57,11 @@ button{
   color: white;
 }
 
+#music{
+  min-height: 100vh;
+  padding-top: 75px; 
+}
+
 .carousel-item{
   height: 32rem;
   background: black;
@@ -62,6 +69,10 @@ button{
   position: relative;
 }
 
+#gallery{
+  min-height: 100vh;
+  padding-top: 75px; 
+}
 
 .reception{
   display: block;
@@ -100,7 +111,7 @@ button{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 600px;
+  min-height: 400px;
   padding: 1.5rem;
   padding-top: 100px;
   display: flex;
