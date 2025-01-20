@@ -56,22 +56,19 @@
     <section id="music">
 
 <div class="container">
-  <h1 class="heading"> My Music </h1>
-
-<iframe width="100%" height="465" scrolling="no" frameborder="no" allow="autoplay"
+  <h1 class="container-text"> Music </h1>
+<iframe width="160%" height="500" scrolling="no" frameborder="no" allow="autoplay"
   src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/djyugo&amp;">
 </iframe> 
-
-
+<button>Book Now!</button>
 </div>
-
 
 
 </section>
 
 <section id="gallery">
   <div class="container">
-  <h1>Event Gallery</h1>
+  <h1>Gallery</h1>
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -120,9 +117,86 @@
     </div>
     <button>Book Now!</button>
   </div>
+  <div class="price_card">
+    <div class="header">
+      <div class="price">$100</div>
+      <div class="info">
+        <h1>BLUE</h1>
+        <p>For Parties Over 50+</p>
+      </div>
+    </div>
+    <div class="desc">
+      <li>
+        <span class="icon check"><ion-icon name="checkmark-outline"></ion-icon></span>
+        Medium size enclosure with amplified speakers and lighting
+      </li>
+      <li>
+        <span class="icon check"><ion-icon name="checkmark-outline"></ion-icon></span>
+        6+ Hours of playtime
+      </li>
+      <li>
+        <span class="icon check"><ion-icon name="checkmark-outline"></ion-icon></span>
+        Microphone Service
+      </li>
+    </div>
+    <button>Book Now!</button>
+  </div>
+  <div class="price_card">
+    <div class="header">
+      <div class="price">$200</div>
+      <div class="info">
+        <h1>BLACK</h1>
+        <p>For parties over 100+ people</p>
+      </div>
+    </div>
+    <div class="desc">
+      <li>
+        <span class="icon check"><ion-icon name="checkmark-outline"></ion-icon></span>
+        Large enclosure with speakers and lighting
+      </li>
+      <li>
+        <span class="icon check"><ion-icon name="checkmark-outline"></ion-icon></span>
+        8+ Hours of playtime
+      </li>
+      <li>
+        <span class="icon check"><ion-icon name="checkmark-outline"></ion-icon></span>
+        Microphone Services
+      </li>
+    </div>
+    <button>Book Now!</button>
+  </div>
 </section>
 
-
+<section id="contact">
+  <div class="container mt-5">
+    <h1>Contact</h1>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" required>
+      </div>
+      <div class="col-md-8">
+        <label for="emailInfo" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="emailInfo" required>
+      </div>
+      <div class="col-md-4">
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (410) 555-0000">
+      </div>
+      <div class="col-md-12">
+        <label for="party" class="form-label">Package Desired, Party Info (Occasion Description, Estimated Number of People, Dress Code, etc.)</label>
+        <textarea class="form-control" id="party" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Book Me!</button>
+      </div>
+    </form>
+  </div>
+</section>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
