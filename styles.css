@@ -6,6 +6,12 @@
     color: deepskyblue;
   }
 
+.navbar{
+  font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
   h1{
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
@@ -79,17 +85,16 @@ button{
 
 #music{
   min-height: 100vh;
-  padding-top: 75px; 
+  padding-top: 75px;
 }
 
 .gallery{
   height: 400px;
-  
 }
 
 .carousel-item{
   height: 100rem;
-  width: 90rem;
+  width: 85rem;
   color: black;
   padding-top: 600px;
 }
@@ -260,5 +265,9 @@ button{
 
 .btn{
   background: black;
+}
+
+.footer i{
+  font-size: 40px;
 }
 
